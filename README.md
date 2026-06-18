@@ -51,7 +51,7 @@ If you don't have Java installed, download it from [https://adoptium.net](https:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com/mdudhe2007/rock-paper-scissors.git
 cd rock-paper-scissors
 ```
 
