@@ -15,7 +15,7 @@ Thanks for your interest in contributing! This document covers how to set up the
 2. Clone your fork locally
 
 ```bash
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com/mdudhe2007/rock-paper-scissors.git
 cd rock-paper-scissors
 ```
 
