@@ -66,7 +66,7 @@ public class Main {
         }
 
         if (!isValidChoice(playerInput)) {
-            System.out.println("  ✖  Invalid! Please type: rock, paper, or scissors.");
+            System.out.println("   Invalid! Please type: rock, paper, or scissors.");
             return;
         }
 
@@ -80,13 +80,13 @@ public class Main {
         String result = getResult(playerInput, computerChoice);
 
         switch (result) {
-            case "win"  -> { System.out.println("  ★  You WIN!"); wins++; }
-            case "lose" -> { System.out.println("  ✖  You LOSE."); losses++; }
-            case "tie"  -> { System.out.println("  ◈  It's a TIE!"); ties++; }
+            case "win"  -> { System.out.println("   You WIN!"); wins++; }
+            case "lose" -> { System.out.println("   You LOSE."); losses++; }
+            case "tie"  -> { System.out.println("   It's a TIE!"); ties++; }
         }
 
         System.out.println();
-        System.out.printf("  Score  ▶  Wins: %d   Losses: %d   Ties: %d%n", wins, losses, ties);
+        System.out.printf("  Score  :  Wins: %d   Losses: %d   Ties: %d%n", wins, losses, ties);
         System.out.println("─".repeat(52));
     }
 
